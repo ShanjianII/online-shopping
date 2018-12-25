@@ -17,7 +17,13 @@
 
 
 	<dependencies>
-
+	
+	
+		<dependency>
+			 <groupId>net.cls</groupId>
+			 <artifactId>shoppingbackend</artifactId>
+			 <version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- java ee api -->
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
