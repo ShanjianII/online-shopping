@@ -67,6 +67,14 @@
 			<c:if test="${userClickcontact == true}">
 				<%@include file="contact.jsp"%>
 			</c:if>
+			
+			<!-- loadonly when user clicks show product-->
+			<c:if test="${userClickAllProduct == true}">
+				<%@include file="listProducts.jsp"%>
+			</c:if>
+			
+			
+			
 		</div>
 
 		<!-- /.container -->
